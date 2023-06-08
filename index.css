@@ -1,0 +1,106 @@
+@import url("./reset.css");
+/* html {
+  font-size: 16px;
+} */
+*{
+  text-decoration: none;
+}
+}
+body {
+  font-family: "Roboto Mono", monospace;
+}
+/* font-family: 'Chelsea Market', cursive;
+font-family: 'Roboto Mono', monospace; */
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 2rem;
+}
+.hero {
+  min-height: 250px;
+  padding-top: 40px;
+}
+
+.hero__img {
+  width: 200px;
+  height: 200px;
+}
+.hero__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+  border-radius: 50%;
+}
+
+.hero__cta {
+  text-align: center;
+  margin: auto;
+  line-height: 2;
+}
+
+/* TOOLKIT */
+.button {
+  display: inline-block;
+  background-color: slategray;
+  color: white;
+  border-radius: 8px;
+  min-height: 50px;
+  padding: 16px 24px;
+}
+.bg--blue {
+  background-color: #5ed3eb;
+}
+.bg--orange {
+  background-color: #ff764e;
+}
+.bg--yellow {
+  background-color: #ffcd69;
+}
+.float--left {
+  float: left;
+}
+.float--right {
+  float: right;
+}
+.width-clamp {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* FOOTER */
+.footer__img {
+  height: 150px;
+}
+.footer__img img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+/* MENU */
+.menu {
+  text-align: center;
+  padding: 2rem;
+}
+
+.menu__footer {
+  background-color: bisque;
+}
+.content--beige {
+  padding: 8px;
+  background-color: darksalmon;
+  color: white;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.narrow {
+  width: 300px;
+  margin: 40px auto 20px;
+  text-align: center;
+}
+.narrow img {
+  max-width: 50%;
+}
